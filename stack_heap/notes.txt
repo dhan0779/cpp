@@ -1,0 +1,9 @@
+both the stack and the heap are located in RAM, but heap can grow/shrink
+
+how do we find contiguous four block of memory? memory allocation
+freelist  keeps track of which block of memory is available -> from malloc
+actual implementation of malloc is dependent, if it needs to ask for more memory than what's 
+available in the free list, that can be even more expensive
+
+CPU cache misses
+the performance difference, is the allocation -> so preallocating 4GB is basically the exact same

@@ -1,0 +1,5 @@
+Why shouldn't you use "using namespace std"
+It can get confusing what's using the standard library and what isn't, especially functions you write
+readability -> EASTL, basically replaces the STL, duplicacy in library
+
+ambiguity EASTL::vector, std::vector
